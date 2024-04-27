@@ -1,0 +1,28 @@
+body{
+    background-color:  rgb(119, 84, 55);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 300%;
+    color: #000000;
+}
+
+.im-fell-english-sc-regular {
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px;
+}
+#imagDrag{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 76   0px;
+    height: 400px;
+}
+p{
+    text-align: center;
+    color: #000000;
+}
+  
