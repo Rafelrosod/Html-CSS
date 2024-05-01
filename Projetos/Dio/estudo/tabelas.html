@@ -13,22 +13,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
     <style>
-        table tr:nth-child(even) {
-            background-color: darkred;
-            color: aliceblue;
+        table{
+            box-shadow: 8px 6px 5px 2px rgba(0, 0, 0, 0.24);
+            border: solid 1px gray;
         }
-
+        table thead th{
+            background-color: darkred;
+            color: white;
+        }
+        table tbody tr:nth-child(even){
+          background-color: darkgray;
+        }
+        table tfoot td{
+            background-color: rgb(124, 124, 124);
+        }
         table tr:hover td {
-            background-color: black;
+            background-color: rgb(77, 77, 77);
             color: aliceblue;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <h2 align=" center">Aula sobre Tabelas</h2>
-    <table sumary="Infos" border="1" width="250" cellspacing="5" cellpadding="5" align="center">
+    <h2 align="center">Aula sobre Tabelas</h2>
+    <table sumary="Infos" width="250" cellspacing="5" cellpadding="5" align="center">
         <caption>Tabela de Idade dos Apostolos</caption>
         <thead>
+            <tr>
+                <th colspan="2" >Minha Tabela</th>
+            </tr>
             <tr>
                 <th title="Nome Completo">Nome</th>
                 <th>idade</th>

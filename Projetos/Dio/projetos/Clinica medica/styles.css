@@ -1,0 +1,53 @@
+body
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #036c5f;
+}
+#image{
+    margin: 15px;
+}
+#navecacao{
+    color: white;
+}
+#icones{
+    margin: 15px;
+}
+.titulo{
+    color: black;
+}
+.corpo{
+    background-color: sandybrown;
+    color: white;
+}
+.rodape{
+    background-color: #036c5f;
+}
+#contato {
+    text-align: left;
+    padding: 5px;
+}
+.tabela{
+    text-align: center;
+}
+table{
+    box-shadow: 8px 6px 5px 2px rgba(0, 0, 0, 0.24);
+    border: solid 1px gray;
+}
+table thead th{
+    background-color: darkred;
+    color: white;
+}
+table tbody tr:nth-child(even){
+  background-color: darkgray;
+}
+table tfoot td{
+    background-color: rgb(124, 124, 124);
+}
+table tr:hover td {
+    background-color: rgb(77, 77, 77);
+    color: aliceblue;
+    cursor: pointer;
+}
