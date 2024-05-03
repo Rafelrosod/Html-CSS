@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+    padding: 100px;
+}
+fieldset{
+    border-radius: 10px;
+    display: flex;
+    width: 400px;
+}
+button{
+    align-items: center;
+}

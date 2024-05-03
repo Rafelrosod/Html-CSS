@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" ></script>
+    </head>
+    <body>
+        <input type="text" id="busca"><br>
+        <p id="descricao">Os nossos cursos e programas de formação são criados em conjunto com especialistas das empresas mais inovadoras do mundo, aplicando uma metodologia para que voce domine as tecnologias utilizadas no mercado.</p>
+    </body>
+    <script>
+        var searchField = document.getElementById('busca');
+        var descriptionObject = document.getElementById('descricao');
+        var textToSearch = descriptionObject.innerHTML;
+    
+        function realizaBusca(busca) {
+            const regex = new RegExp(`(${busca})(?![^<]*<\/mark>)`, 'ig');
+            const ocurrences = textToSearch.match(regex);
+            descriptionObject.innerHTML = textToSearch.replace(regex, "<mark>$1</mark>");
+        }
+    
+        searchField.addEventListener('keyup', (e) => realizaBusca(e.target.value));
+    
+    </script>
+    
+</html>
