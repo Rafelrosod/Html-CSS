@@ -1,5 +1,4 @@
 # Css.
-___
 
 **CSS** (Cascading Style Sheets) é uma linguagem utilizada para descrever a apresentação de um documento HTML ou XML. CSS define como os elementos HTML devem ser exibidos, proporcionando uma separação entre o conteúdo e a apresentação. Com CSS, você pode controlar o layout, cores, fontes e outros aspectos visuais de uma página web.
 
