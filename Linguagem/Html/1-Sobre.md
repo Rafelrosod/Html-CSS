@@ -1,5 +1,4 @@
 # Sobre o Html. 
-___
 
 **Html** (HyperText Markup Language) é a linguagem padrão para a criação de páginas web e aplicações web. 
  
