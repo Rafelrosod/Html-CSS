@@ -1,5 +1,4 @@
 # Sobre o Html. 
-___
 
 **Html** (HyperText Markup Language) é a linguagem padrão para a criação de páginas web e aplicações web. 
  
@@ -24,7 +23,7 @@ Um documento HTML é composto por elementos aninhados, que são delimitados por 
 </html>
 ~~~
 
-* **!DOCTYPE html>:** Declaração do tipo de documento, indicando que o documento é HTML5.
+* **`<!DOCTYPE html>`:** Declaração do tipo de documento, indicando que o documento é HTML5.
 * **`<Html>`:** Elemento raiz que envolve todo o conteúdo do documento.
 * **`<head>`:** Contém metadados sobre o documento, como título, codificação de caracteres e links para estilos e scripts.
 * **`<title>`:** Define o título da página, exibido na aba do navegador.
