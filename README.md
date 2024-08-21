@@ -40,6 +40,3 @@ Navegador moderno (para visualizar exemplos)
 Editor de código como VSCode (para experimentar o código)
 ### Contribuição
 Contribuições são bem-vindas! Se você encontrar erros ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Licença
-Este projeto está licenciado sob a MIT License.
